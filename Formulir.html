@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Formulir</title>
+	<style>
+	#isi {color:74888f; font-variant:italic; font-size:15; font-weight:bold;}
+	#judul {color:74888f; font-variant:italic; font-size:20; font-weight:bold; text-align:center}
+	</style>
+</head>
+
+<body bgcolor="#f9fbee">
+
+	<table  cellspacing="10" cellpadding="10" bgcolor="#f9fbee" width="43%" align="center">
+	<tr>
+		<td><img src="bunga.jpg" height="568"></td>
+	</tr>	
+	<tr><td>
+	<div id="judul">Formulir Data Diri</div>
+	<hr size="3" color="brown">
+	<form method="post" bgcolor="#bdcbcc">
+		<table  width="80%" align="left">
+			<tr>
+				<td><div id="isi">Nama </div></td>
+				<td><b>: </b><input type="text" name="varNama" size="25"></td>
+			</tr>
+			<tr>
+				<td><div id="isi">Email </div></td>
+				<td><b>: </b><input type="text" name="varEmail" size="25"></td>
+			</tr>
+			<tr>
+				<td><div id="isi">Username </div></td>
+				<td><b>:    </b><input type="text" name="varUsername" size="25"></td>
+			</tr>
+			<tr>
+				<td><div id="isi">Password</div></td>
+				<td><b>: </b><input type="password" name="varPassword" size="25"></td>
+			</tr>
+			<tr>
+				<td><div id="isi">Alamat </div></td>
+				<td><b>: </b><textarea name="varAlamat" cols="20" rows="5"></textarea></td>
+			</tr>
+			<tr>
+				<td><div id="isi">Agama </div></td>
+				<td><b>: </b><select name="varAgama" size="1">
+					<option>Islam</option>
+					<option>Kristen</option>
+					<option>Budha</option>
+					<option>Hindu</option>
+					<option>Katholik</option>
+					<option>Lainnya</option></select></td>
+			</tr>		
+			<tr>
+				<td><div id="isi">Jenis Kelamin</div></td>
+				<td><input checked type="radio" name="kelamin" value="pria"><div id="isi"> Pria</div></td>
+				<td>			 <input type="radio" name="kelamin" value="Wanita"><div id="isi">Wanita</div><br></td>								
+			</tr>
+			<tr>
+			</tr>	
+			<tr>
+				<td><div id="isi">Hobi</div></td>
+				<td><input type="checkbox" name="hobi" value="soccer"><div id="isi">Sepakbola</div></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="checkbox" name="hobi" value="badminton"><div id="isi">Bulutangkis</div></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>		 <input type="checkbox" name="hobi" value="computer"><div id="isi">Komputer</div></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="checkbox" name="hobi" value="game"><div id="isi">Game</div></td>
+			</tr>	
+			<tr>
+				<td></td>
+				<td><input type="checkbox" name="hobi" value="membaca"><div id="isi">Membaca</div><br></td>
+			</tr>
+		</table>
+	</form>
+	</td></tr>
+
+</body>
+</html>
